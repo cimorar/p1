@@ -1,2 +1,5 @@
 [windows]
-vmcrm01raci.westeurope.cloudapp.azure.com
+#vmcrm01raci.westeurope.cloudapp.azure.com
+172.16.9.4
+
+
