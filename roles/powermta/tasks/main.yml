@@ -4,6 +4,12 @@
 - name: Ping the server
   win_ping:
 
+- name: Creates a folder for the config file to be stored
+  win_file:
+  path: c:\Temp\
+  state: directory
+
+
 - name: Create a file from Jinja2 template
   win_template:
     src: config.ini.j2
