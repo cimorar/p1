@@ -1,0 +1,11 @@
+---
+# This playbook will configure PowerMTA on the Windows host
+
+- name: Ping the server
+  win_ping:
+
+- name: Create a file from Jinja2 template
+  win_template:
+    src: config.ini.j2
+    dest: C:\temp\config.ini
+  
