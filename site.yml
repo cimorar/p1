@@ -1,0 +1,7 @@
+---
+# This is a master playbook for Windows test managemeng using playbook
+- name: Apply PowerMTA configuration
+  hosts: windows
+  
+  roles:
+    - powermta
